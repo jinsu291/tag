@@ -38,15 +38,19 @@ public class AppConfig {
         activeProfile = value;
     }
 
+    /*
     @Value("${custom.site.name}")
     public void setSiteName(String siteName) {
         AppConfig.siteName = siteName;
     }
 
+
+
     @Value("${custom.site.baseUrl}")
     public void setSiteBaseUrl(String siteBaseUrl) {
         AppConfig.siteBaseUrl = siteBaseUrl;
     }
+*/
 
     public static boolean isNotProd() {
         return isProd() == false;

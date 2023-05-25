@@ -118,11 +118,12 @@ public class Rq {
         return memberContext.hasAuthority("ADMIN");
     }
 
-    public boolean isAuthor() {
+    public boolean isManager() {
         if ( isLogout() ) return false;
 
-        return memberContext.hasAuthority("AUTHOR");
+        return memberContext.hasAuthority("MANAGER");
     }
+
 
     public boolean isUsrPage() {
         return isAdmPage() == false;
@@ -130,5 +131,9 @@ public class Rq {
 
     public boolean isAdmPage() {
         return req.getRequestURI().startsWith("/adm");
+    }
+
+    public boolean isManPage() {
+        return req.getRequestURI().startsWith("/man");
     }
 }
