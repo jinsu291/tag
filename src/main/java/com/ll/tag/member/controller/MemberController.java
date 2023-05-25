@@ -27,6 +27,6 @@ public class MemberController {
     @PostMapping("/join")
     public String join(@Valid MemberForm memberForm) {
         memberService.join(memberForm.getUsername(), memberForm.getPassword(), memberForm.getEmail(), memberForm.getNickname());
-        return "redirect:/member/login?msg=";
+        return "redirect:/member/login";
     }
 }
