@@ -11,6 +11,7 @@ import org.springframework.context.annotation.Configuration;
 
 import javax.persistence.EntityManager;
 
+
 @Configuration
 public class AppConfig {
     @Getter
@@ -75,4 +76,5 @@ public class AppConfig {
     public ObjectMapper objectMapper() {
         return new ObjectMapper().registerModule(new JavaTimeModule());
     }
+
 }
