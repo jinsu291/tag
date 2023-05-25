@@ -1,4 +1,4 @@
-package com.ll.tag.home;
+package com.ll.tag.app.home;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Controller;
@@ -12,7 +12,7 @@ import java.util.List;
 public class HomeController {
 
     @GetMapping("/")
-    public String showMain(Model model) {
+    public String showMain() {
 
         return "home/main";
     }

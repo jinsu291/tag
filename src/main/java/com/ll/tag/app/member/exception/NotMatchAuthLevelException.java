@@ -1,4 +1,4 @@
-package com.ll.tag.member.exception;
+package com.ll.tag.app.member.exception;
 
 public class NotMatchAuthLevelException extends RuntimeException {
     public NotMatchAuthLevelException() {

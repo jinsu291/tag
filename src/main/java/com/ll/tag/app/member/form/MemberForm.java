@@ -1,4 +1,4 @@
-package com.ll.tag.member.form;
+package com.ll.tag.app.member.form;
 
 import lombok.Data;
 

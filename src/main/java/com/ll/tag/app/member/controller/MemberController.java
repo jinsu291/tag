@@ -1,7 +1,7 @@
-package com.ll.tag.member.controller;
+package com.ll.tag.app.member.controller;
 
-import com.ll.tag.member.form.MemberForm;
-import com.ll.tag.member.service.MemberService;
+import com.ll.tag.app.member.service.MemberService;
+import com.ll.tag.app.member.form.MemberForm;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.stereotype.Controller;

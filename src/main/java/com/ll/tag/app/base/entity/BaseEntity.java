@@ -1,4 +1,4 @@
-package com.ll.tag.base.entity;
+package com.ll.tag.app.base.entity;
 
 import lombok.*;
 import lombok.experimental.SuperBuilder;

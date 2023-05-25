@@ -1,6 +1,6 @@
-package com.ll.tag.security.dto;
+package com.ll.tag.app.security.dto;
 
-import com.ll.tag.member.entity.Member;
+import com.ll.tag.app.member.entity.Member;
 import lombok.Getter;
 import lombok.Setter;
 import org.springframework.security.core.GrantedAuthority;

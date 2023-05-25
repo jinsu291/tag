@@ -1,8 +1,8 @@
-package com.ll.tag.member.service;
+package com.ll.tag.app.member.service;
 
-import com.ll.tag.member.entity.Member;
-import com.ll.tag.member.exception.AlreadyJoinException;
-import com.ll.tag.member.repository.MemberRepository;
+import com.ll.tag.app.member.entity.Member;
+import com.ll.tag.app.member.exception.AlreadyJoinException;
+import com.ll.tag.app.member.repository.MemberRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;

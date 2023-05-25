@@ -1,6 +1,6 @@
-package com.ll.tag.member.repository;
+package com.ll.tag.app.member.repository;
 
-import com.ll.tag.member.entity.Member;
+import com.ll.tag.app.member.entity.Member;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

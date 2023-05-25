@@ -1,13 +1,12 @@
-package com.ll.tag.member.entity;
+package com.ll.tag.app.member.entity;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.ll.tag.base.entity.BaseEntity;
-import com.ll.tag.member.entity.emum.AuthLevel;
+import com.ll.tag.app.base.entity.BaseEntity;
+import com.ll.tag.app.member.entity.emum.AuthLevel;
 import lombok.*;
 import lombok.experimental.SuperBuilder;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
-import org.springframework.util.StringUtils;
 
 import javax.persistence.Column;
 import javax.persistence.Convert;

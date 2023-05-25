@@ -1,6 +1,6 @@
-package com.ll.tag.member.entity.emum;
+package com.ll.tag.app.member.entity.emum;
 
-import com.ll.tag.member.exception.NotMatchAuthLevelException;
+import com.ll.tag.app.member.exception.NotMatchAuthLevelException;
 import lombok.Getter;
 
 import javax.persistence.AttributeConverter;

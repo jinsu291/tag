@@ -1,4 +1,4 @@
-package com.ll.tag.security;
+package com.ll.tag.app.security;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Bean;
