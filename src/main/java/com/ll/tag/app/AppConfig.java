@@ -44,13 +44,11 @@ public class AppConfig {
         AppConfig.siteName = siteName;
     }
 
-
-
     @Value("${custom.site.baseUrl}")
     public void setSiteBaseUrl(String siteBaseUrl) {
         AppConfig.siteBaseUrl = siteBaseUrl;
     }
-*/
+     */
 
     public static boolean isNotProd() {
         return isProd() == false;
@@ -80,5 +78,6 @@ public class AppConfig {
     public ObjectMapper objectMapper() {
         return new ObjectMapper().registerModule(new JavaTimeModule());
     }
+
 
 }
